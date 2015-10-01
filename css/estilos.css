@@ -1,0 +1,98 @@
+/*-- HEADER --*/
+.navbar{
+	margin-bottom: 0;
+	
+}
+
+/*-- BODY --*/
+.customImg{
+	/*--background-image:url(../images/Paisaje-de-agua-77223.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;--*/
+	background: #FDF9DE;
+}
+.navbar-brand {
+    padding-top: 0;
+}
+/*--Carousel--*/
+.adaptar { 
+	width:100%;
+}
+#carousel-style{
+	background: #BC180F;
+	padding-bottom: 18px;
+	padding-top: 18px;
+}
+/*--POST --*/
+.post-contenido{
+	background-color: #F6E490;
+	color:#000; 
+}
+.main{
+	margin-top:5px;
+	margin-bottom: 5px;
+	padding-top: 20px;
+}
+.post{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #999;
+}
+#tipoLetra{
+	color: #fff;
+}
+.post .post-title a{
+	color:#fff;
+}
+.post .thumb{
+	margin-right: 10px;
+	width: 40%;
+}
+.post .thumb img{
+	width: 100%;
+}
+.post-fecha{
+	color:#fff;
+}
+.post-autor{
+	color:#fff;
+}
+#post-style{
+	background: #4D1D1B;
+	padding-top: 5px;
+}
+
+
+/*-- Media Querie --*/
+@media screen and (max-width: 768px){
+	.post .thumb{
+		width: 100%;
+		margin-bottom:20px;
+	}
+}
+
+/*-- Footer --*/
+.text-center{
+	/*--background: linear-gradient(#D0012D,#FF829E);--*/
+	background: #222222;
+	color: #fff;
+}
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
+    color: #18bc9c;
+    background: #fff;
+}
